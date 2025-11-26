@@ -50,9 +50,10 @@ export const BusinessCard: React.FC = () => {
     const smsUrl = /iPhone|iPad|iPod/i.test(ua)
       ? `sms:${number}&body=${smsBody}` // iOS format
       : `sms:${number}?body=${smsBody}`; // Android format
+    // Wait briefly to let the download action register before opening the SMS app
     setTimeout(() => {
-      window.location.href = smsUrl;
-    }, 150);
+      window.location.assign(smsUrl);
+    }, 350);
 
     setSaved(true);
     // retrigger jiggle after save

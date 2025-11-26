@@ -10,7 +10,7 @@ const contact = {
   note: 'Just like your mom makes them'
 };
 
-const smsMessage = "You are now added to the Beehive network! - Matt's Cookie Company";
+const smsMessage = "Nice to meet you! - Matt's Cookie Company";
 
 function buildVCard() {
   return [

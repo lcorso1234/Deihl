@@ -529,8 +529,8 @@ video {
     top: 0;
     height: 0.25rem;
     width: 100%;
-    background: linear-gradient(90deg, #39ff14, #9dff80 60%, #39ff14);
-    box-shadow: 0 0 12px #39ff14, 0 0 24px rgba(57, 255, 20, 0.6);
+    background: linear-gradient(90deg, #ff1744, #ff6f91 60%, #ff1744);
+    box-shadow: 0 0 12px #ff1744, 0 0 24px rgba(255, 23, 68, 0.6);
   }
 .biz-card:after {
     content: '';
@@ -543,7 +543,7 @@ video {
   }
 .jiggle-once { animation: jiggle 0.9s ease-in-out; }
 .jiggle-loop { animation: jiggle 0.9s ease-in-out infinite; }
-.accent-glow { box-shadow: 0 0 8px #39ff14, 0 0 16px rgba(57,255,20,.55); }
+.accent-glow { box-shadow: 0 0 8px #ff1744, 0 0 16px rgba(255,23,68,.6); }
 .badge {
     display: inline-flex;
     align-items: center;
@@ -561,7 +561,7 @@ video {
     height: 10px;
     border-radius: 999px;
     background: var(--accent);
-    box-shadow: 0 0 10px rgba(57, 255, 20, 0.8);
+    box-shadow: 0 0 10px rgba(255, 23, 68, 0.8);
     animation: pulse 1.6s ease-in-out infinite;
   }
 .button-sheen {
@@ -578,7 +578,7 @@ video {
     border-radius: 999px;
     filter: blur(80px);
     opacity: 0.18;
-    background: radial-gradient(circle, rgba(57, 255, 20, 0.45), rgba(57, 255, 20, 0));
+    background: radial-gradient(circle, rgba(255, 23, 68, 0.45), rgba(255, 23, 68, 0));
     z-index: 0;
   }
 .floating-glow--left { left: -120px; top: 10%; }
@@ -657,7 +657,7 @@ video {
 }
 .bg-accent{
   --tw-bg-opacity: 1;
-  background-color: rgb(57 255 20 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 23 68 / var(--tw-bg-opacity, 1));
 }
 .bg-black\/30{
   background-color: rgb(0 0 0 / 0.3);
@@ -743,10 +743,10 @@ video {
 }
 .text-accent{
   --tw-text-opacity: 1;
-  color: rgb(57 255 20 / var(--tw-text-opacity, 1));
+  color: rgb(255 23 68 / var(--tw-text-opacity, 1));
 }
 .text-accent\/80{
-  color: rgb(57 255 20 / 0.8);
+  color: rgb(255 23 68 / 0.8);
 }
 .text-gunmetal{
   --tw-text-opacity: 1;
@@ -788,6 +788,10 @@ video {
   --tw-drop-shadow: drop-shadow(0 0 10px rgba(57,255,20,0.55));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.drop-shadow-\[0_0_10px_rgba\(255\2c 23\2c 68\2c 0\.55\)\]{
+  --tw-drop-shadow: drop-shadow(0 0 10px rgba(255,23,68,0.55));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 .transition-transform{
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -811,7 +815,7 @@ video {
 :root {
   --foreground: 0 0% 96%;
   --background: 220 7% 15%;
-  --accent: #39ff14;
+  --accent: #ff1744;
   --gunmetal: #1f2124;
 }
 
@@ -823,8 +827,8 @@ body,
 
 body {
   color: hsl(var(--foreground));
-  background: radial-gradient(circle at 20% 20%, rgba(57, 255, 20, 0.06), transparent 28%),
-    radial-gradient(circle at 80% 0%, rgba(57, 255, 20, 0.05), transparent 30%),
+  background: radial-gradient(circle at 20% 20%, rgba(255, 23, 68, 0.08), transparent 28%),
+    radial-gradient(circle at 80% 0%, rgba(255, 23, 68, 0.06), transparent 30%),
     hsl(var(--background));
   font-family: 'Space Grotesk', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   letter-spacing: -0.01em;
@@ -871,7 +875,7 @@ body {
 }
 .focus\:ring-accent:focus{
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(57 255 20 / var(--tw-ring-opacity, 1));
+  --tw-ring-color: rgb(255 23 68 / var(--tw-ring-opacity, 1));
 }
 .focus\:ring-brand-400:focus{
   --tw-ring-opacity: 1;

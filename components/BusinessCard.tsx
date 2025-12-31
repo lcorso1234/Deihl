@@ -72,7 +72,7 @@ export const BusinessCard: React.FC = () => {
         </div>
         <header className="mb-4">
           <p className="text-xs uppercase tracking-[0.28em] text-accent/80 mb-2">Contact Card</p>
-          <h1 className="text-3xl font-bold leading-tight text-accent drop-shadow-[0_0_10px_rgba(57,255,20,0.55)]">
+          <h1 className="text-3xl font-bold leading-tight text-accent drop-shadow-[0_0_10px_rgba(255,23,68,0.55)]">
             Just like your mom makes them
           </h1>
           <p className="text-sm text-white/70 mt-2">

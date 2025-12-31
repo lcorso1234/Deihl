@@ -20,7 +20,7 @@ module.exports = {
           900: '#132f70'
         },
         gunmetal: '#2b2d30',
-        accent: '#39ff14'
+        accent: '#ff1744'
       },
       boxShadow: {
         card: '0 2px 4px rgba(0,0,0,0.4), 0 6px 12px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.06)'
